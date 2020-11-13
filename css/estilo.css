@@ -3,29 +3,49 @@
 body {
     background-color:white;
     font-size: auto;
+    display: block;
+    margin: 8px;
     
 }
 div#site{
     width: 400px;
     background-color: #dddddd;
+    display: block;
    
 }
 p{
     font-family: 'Times New Roman', Times, serif;
     text-align:justify;
     text-indent: 30px;
-    margin: 10px auto 10px 10px;
-    
+    margin: 10px auto 10px 10px; 
+}
+h1{
+    font-size: 25px;
+    margin: 4px;
+    margin-left: 8px;
+}
+h2{
+
+    font-size: 15px;
+    padding: 3px;
+    color: #4C4C4C;
+    margin-right: 10px;
+
 }
 ul {
+    display: block;
     margin: 10px 10px auto  ;
-    padding: auto ;
     background-color: #333333;
     list-style-type: none;
     overflow: auto;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 li{
-    list-style: 0 ; 
+    list-style-type: none ; 
     margin: 13px;
     display:inline-block;
     
@@ -37,47 +57,21 @@ li a {
     text-decoration: transparent;
     padding: 13px;
     margin: auto;
-
-
 }
 li a:hover{
     background-color:#111111;
 }
-
 section#corpo {
     display: block;
     width: 550px;
     float: left;
     border-right: 1px solid;
     padding-right: 10px;
-    
-}
-aside#lateral {
-    display: inline-flex;
-    width: 620px;
-    padding-left: 300px;
-   
-    float: left;
-    
-   
 }
 footer#rodape {
     clear: both;
     border-top:-20px solid;
     height: 10px;
-
-}
-
-
-
-h2{
-
-    font-size: 15px;
-    padding: 3px;
-    background-color: #E3E3E3;
-    color: #4C4C4C;
-    margin-right: 10px;
-
 }
 footer#rodape p {
     text-align: center;
