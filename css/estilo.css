@@ -7,13 +7,11 @@ body {
 div#site{
     width: 400px;
     background-color: #dddddd;
-    display: block;
-   
+  
 }
+
 div#lateral{
-    
-    float:right;
-    width: 535px;
+    float: left;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
@@ -64,15 +62,6 @@ li a:hover{
     background-color:#111111;
 }
 
-footer#rodape {
-    clear: both;
-    border-top:-20px solid;
-    height: 10px;
-}
-footer#rodape p {
-    text-align: center;
-   
-}
 .zoom {
 	overflow: hidden;
 }
