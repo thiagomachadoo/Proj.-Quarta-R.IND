@@ -10,6 +10,11 @@ div#site{
     display: block;
    
 }
+div#lateral{
+    
+    float:right;
+    width: 535px;
+}
 p{
     font-family: 'Times New Roman', Times, serif;
     text-align:justify;
@@ -19,7 +24,7 @@ p{
 h1{
     font-size: 25px;
     margin: 4px;
-    margin-left: 8px;
+    
 }
 h2{
 
@@ -58,13 +63,7 @@ li a {
 li a:hover{
     background-color:#111111;
 }
-section#corpo {
-    display: block;
-    width: 570px;
-    float: left;
-    padding-right: 10px;
-    margin: 5px;
-}
+
 footer#rodape {
     clear: both;
     border-top:-20px solid;
