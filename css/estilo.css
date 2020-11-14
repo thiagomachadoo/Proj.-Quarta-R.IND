@@ -1,18 +1,30 @@
 @charset "UTF=8";
 
 body {
-    background-color:white;
-    width: auto;
-    margin: 1%;
-    
-   
-    
-    
+   margin: 0%;
+   padding:0% ;
+   color:#000 ;
+   background:#fff ;
 }
-
-section#corpo{
-        display: block;
-        width: auto;
+#geral{
+    widows: 960px; 
+    margin: 0 auto;
+    background: #ddd;
+}
+#cabecalho {
+    background: #fdd;
+}
+#conteudo-1{
+    background:#bfb;
+}
+#conteudo-2-1{
+    background:#ddf;
+}
+#conteudo-2-2{
+    background:#ddf;
+}
+#rodape{
+    background:#ff9;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
