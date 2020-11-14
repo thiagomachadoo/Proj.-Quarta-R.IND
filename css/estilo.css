@@ -2,16 +2,15 @@
 
 body {
     background-color:white;
+    width: auto;
+   
+    
     
 }
-div#site{
-    width: 400px;
-    background-color: #dddddd;
-  
-}
 
-div#lateral{
-    float: left;
+section#corpo{
+        display: block;
+        width: auto;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
@@ -19,6 +18,8 @@ p{
     text-indent: 30px;
     margin: 10px auto 10px 10px; 
 }
+    
+
 h1{
     font-size: 25px;
     margin: 4px;
@@ -30,6 +31,7 @@ h2{
     padding: 3px;
     color: #4C4C4C;
     margin-right: 10px;
+   
 
 }
 ul {
