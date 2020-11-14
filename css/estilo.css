@@ -22,8 +22,9 @@ body {
     background:#bfb;
 }
 #conteudo-2 {
-    float:right;
+    float:center;
     width:720px;
+    
 }
 #conteudo-2-1{
     float:left;
@@ -33,7 +34,7 @@ body {
 }
 #conteudo-2-2{
     float: right;
-    width: 200px;
+    width: 210px;
     padding: 10px;
     background:#ddf;
 }
