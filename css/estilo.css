@@ -19,10 +19,18 @@ body {
     width: 240px;
     background:#bfb;
 }
+#conteudo-1{
+    float: right;
+    width: 720px;
+}
 #conteudo-2-1{
+    float:left;
+    width: 480px;
     background:#ddf;
 }
 #conteudo-2-2{
+    float: right;
+    width: 240px;
     background:#ddf;
 }
 #rodape{
