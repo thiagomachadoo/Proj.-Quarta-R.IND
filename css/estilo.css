@@ -14,6 +14,7 @@ body {
 #cabecalho {
     padding: 10px;
     background: #fdd;
+    margin: auto;
 }
 #conteudo-1{
     float: left;
@@ -36,7 +37,7 @@ body {
     float: right;
     width: 210px;
     padding: 10px;
-    background:#ddf;
+    background:#bfb;
 }
 #rodape{
     background:#ff9;
@@ -67,7 +68,7 @@ h2{
 }
 ul {
     display: block;
-    margin: 10px 10px auto  ;
+    padding: 0%;
     background-color: #333333;
     list-style-type: none;
     overflow: auto;
