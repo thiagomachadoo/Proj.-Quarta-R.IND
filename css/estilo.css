@@ -7,34 +7,40 @@ body {
    background:#fff ;
 }
 #geral{
-    widows: 960px; 
+    width: 960px; 
     margin: 0 auto;
     background: #ddd;
 }
 #cabecalho {
+    padding: 10px;
     background: #fdd;
 }
 #conteudo-1{
     float: left;
-    width: 240px;
+    width: 210px;
+    padding: 10px;
     background:#bfb;
 }
-#conteudo-1{
-    float: right;
-    width: 720px;
+#conteudo-2 {
+    float:right;
+    width:720px;
 }
 #conteudo-2-1{
     float:left;
-    width: 480px;
+    width: 400px;
+    padding: 10px;
     background:#ddf;
 }
 #conteudo-2-2{
     float: right;
-    width: 240px;
+    width: 200px;
+    padding: 10px;
     background:#ddf;
 }
 #rodape{
     background:#ff9;
+    clear:both;
+    padding: 10px;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
