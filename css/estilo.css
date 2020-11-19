@@ -8,9 +8,10 @@ body {
    padding: 1%;
    color:#000 ;
    background-color:white;
+  
 }
 #geral{
-    width: 1200px; 
+    width: 970px; 
     margin: 0 auto;
     background: #ddd;
 }
@@ -34,12 +35,12 @@ body {
     
 }
 #conteudo-2-1{
-    float:left;
+    float: left;
     width: 470px;
     padding: 10px;
     background:#ddf;
-    text-align: auto;
 }
+
 #conteudo-2-2{
     float: right;
     width: 210px;
