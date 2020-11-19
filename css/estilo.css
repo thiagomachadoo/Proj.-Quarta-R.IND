@@ -7,7 +7,7 @@ body {
    margin: -30px;
    padding: 1%;
    color:#000 ;
-   background-color:black;
+   background-color:white;
 }
 #geral{
     width: 1200px; 
@@ -38,6 +38,7 @@ body {
     width: 470px;
     padding: 10px;
     background:#ddf;
+    text-align: auto;
 }
 #conteudo-2-2{
     float: right;
