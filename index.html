@@ -14,12 +14,12 @@
         </form>
         <script>
             function validarFormulario(){
-                var nomePessoa = document.forms['formCadastro']['nome'].value;
+                var nomePessoa = document.forms["formCadastro"]["nome"].value;
                 if (nomePessoa == "" ) {
                     alert("Informar seu nome!");
                     return false;
                 } else {
-                    alert("Olá + ",nomePessoa," + !");
+                    alert("Olá, + 'nomePessoa' + !");
                     return true;
                 }
             }
