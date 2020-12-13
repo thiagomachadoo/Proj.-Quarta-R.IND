@@ -7,6 +7,23 @@
         
     </head>
     <body>
+        <form name="form" onsubmit="return validarFormulario()" method="post">
+            <label for="nome">Informe o seu Nome:</label>
+            <input type="text" name="nome">
+            <input type="submit" value="Enviar">
+        </form>
+        <script>
+            function form(){
+                var nome = document.forms['formCadastro']['nome'].value;
+                if (nome == "" ) {
+                    alert("Informar seu nome!");
+                    return false;
+                } else {
+                    alert("Olá +'nome'+ !");
+                    return true;
+                }
+            }
+        </script>
         <div id="geral">
         <ul>
             <li><a href="#">Sobre</a></li>
